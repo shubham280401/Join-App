@@ -1,0 +1,201 @@
+.login-page,
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.form-container,
+.login-form {
+  flex: 1;
+  max-width: 30%;
+  padding: 2rem;
+  text-align: center;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  flex: 1;
+  max-width: 50%; /* Adjust as needed */
+  padding: 2rem;
+  text-align: center;
+}
+
+.app-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.name-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name-logo h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  margin-left: 10px;
+}
+
+.content p {
+  font-size: 1.25rem;
+  margin: 10px 0 20px;
+}
+
+.join-peers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.peer-avatars {
+  display: flex;
+  margin-right: 10px;
+}
+
+.peer-avatars .MuiAvatar-root {
+  width: 40px;
+  height: 40px;
+  margin-left: -10px;
+  border: 2px solid #fff;
+}
+
+.social-login {
+  margin-bottom: 1rem;
+}
+
+.google-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.google-login img {
+  width: 20px;
+  margin-right: 0.5rem;
+}
+
+.divider {
+  margin: 1rem 0;
+  color: #888;
+  position: relative;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 1px;
+  background: #ddd;
+  top: 50%;
+}
+
+.divider::before {
+  left: 0;
+}
+
+.divider::after {
+  right: 0;
+}
+
+.email-container,
+.password-container {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  width: calc(100% - 32px);
+  padding: 0.5rem 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.password-input-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.password-input-wrapper input {
+  flex: 1;
+}
+
+.password-toggle {
+  cursor: pointer;
+  padding: 0.5rem;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 0 4px 4px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
+
+.forgot-password {
+  display: block;
+  margin-bottom: 1rem;
+  color: #0073e6;
+  text-align: right;
+}
+
+.no-profile {
+  margin-top: 1rem;
+  font-size: 0.875rem;
+}
+
+.no-profile a,
+.no-profile a:visited {
+  color: inherit;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.no-profile a:hover {
+  text-decoration: underline;
+}
+
+.login-btn .icon {
+  display: flex;
+  flex-direction: row;
+  margin-left: 8px;
+}
+
+.forgot-password {
+  text-decoration: none;
+  margin-top: 1rem;
+  font-size: 0.875rem;
+}
+
+.forgot-password:visited {
+  color: inherit;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}

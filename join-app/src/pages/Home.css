@@ -1,0 +1,37 @@
+/* src/pages/Home.css */
+.home-head {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 16px 0;
+}
+
+.input-field {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.input-field .avatar {
+  margin-right: 8px;
+}
+
+.input-field input {
+  flex: 1;
+  padding: 8px 40px 8px 40px; /* Adjust padding for the icons */
+  border: 1px solid #ddd;
+  border-radius: 20px; /* Rounded corners */
+  font-size: 16px;
+}
+
+.input-field .add-icon {
+  position: absolute;
+  right: 16px; /* Position the icon inside the input */
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+}
